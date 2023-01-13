@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(59, 59, 59);
+}
+
+.container{
+  background-color: black;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+  border-radius: 30px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+#mydiv{
+  position: absolute;
+}
+
+#mydivheader{
+  padding: 25px;
+  cursor: move;
+  width: 300px;
+  height: 510px;
+}
+#display{
+  background-color: black;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  border-radius: 10px;
+  color: white;
+}
+
+.buttons{
+  background-color: black;
+  display: grid;
+  border-radius: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.buttons > div {
+  background-color:blanchedalmond;
+  border-radius: 20px;
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 80px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#equal {
+  background-color: lightblue;
+  color: white;
+}
+
+.button:hover {
+  background-color: lightslategray;
+  color: white;
+  transition: 0.5s;
+}
+#clear:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.5s;
+}
+#delete:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+}
